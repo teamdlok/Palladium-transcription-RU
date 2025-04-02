@@ -27,12 +27,6 @@ from transliteration import palladium_transliterate
 text = "Zhongguo"
 result = palladium_transliterate(text)  # Чжунго
 
-# Обработка ошибок
-try:
-    palladium_transliterate("hello123")
-except ValueError as e:
-    print(e)  # ОШИБКА, НЕТ ПОДХОДЯЩЕГО ПЕРЕВОДА ДЛЯ hello123
-```
 
 Примеры транслитерации
 
