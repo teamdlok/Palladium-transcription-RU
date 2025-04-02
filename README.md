@@ -25,9 +25,9 @@ from transliteration import palladium_transliterate
 
 # Пример транслитерации
 text = "Zhongguo"
-result = palladium_transliterate(text)  # Чжунго
-
-
+result = palladium_transliterate(text)  
+print(result) # Чжунго
+```
 Примеры транслитерации
 
 | Пиньинь  | Кириллица |
