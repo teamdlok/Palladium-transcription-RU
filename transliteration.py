@@ -1,4 +1,4 @@
-from .transliteration import dict_of_translation
+from dict_of_translation import dict_of_translation
 
 
 
@@ -38,3 +38,7 @@ def palladium_transliterate(text):
         raise ValueError(f"ОШИБКА, НЕТ ПОДХОДЯЩЕГО ПЕРЕВОДА ДЛЯ {''.join(not_translated)}")
 
     return transliterated
+
+text = "Zhongguo"
+result = palladium_transliterate(text)
+print(result)
