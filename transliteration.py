@@ -1,5 +1,4 @@
-from .transliteration import dict_of_translation
-
+from dict_of_translation import dict_of_translation
 
 
 def palladium_transliterate(text):
