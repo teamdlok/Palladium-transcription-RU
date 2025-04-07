@@ -39,6 +39,7 @@ def palladium_transliterate(text):
 
     return transliterated
 
-text = "Zhongguo"
+text = "Yutao"
+
 result = palladium_transliterate(text)
 print(result)
