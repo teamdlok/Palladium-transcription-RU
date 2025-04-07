@@ -39,7 +39,8 @@ def palladium_transliterate(text):
     return transliterated
 
 
-text = "Yutao"
+if __name__ == "__main__":
 
-result = palladium_transliterate(text)
-print(result)
+    text = "Yutao" #Юйтао
+
+    print(palladium_transliterate(text))
